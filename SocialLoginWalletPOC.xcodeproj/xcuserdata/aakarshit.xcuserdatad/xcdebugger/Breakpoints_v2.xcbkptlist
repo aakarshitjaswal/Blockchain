@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9351034A-BBC6-4E96-BD61-0F45CAAB1467"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44A9D3F2-E75F-4F00-B0A0-97BB3C9C57C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialLoginWalletPOC/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "createAUser()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99C711D5-FB63-430D-B7B8-4AA0F64635A0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialLoginWalletPOC/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "createAUser()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "99C711D5-FB63-430D-B7B8-4AA0F64635A0 - df63116790560c01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialLoginWalletPOC.ViewController.createAUser() -&gt; ()"
+                  moduleName = "SocialLoginWalletPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aakarshit/Documents/SocialWalletPOC/SocialLoginWalletPOC/SocialLoginWalletPOC/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "2032">
+               </Location>
+               <Location
+                  uuid = "99C711D5-FB63-430D-B7B8-4AA0F64635A0 - e0bb90c46e832ac8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SocialLoginWalletPOC.ViewController.createAUser() -&gt; ()"
+                  moduleName = "SocialLoginWalletPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aakarshit/Documents/SocialWalletPOC/SocialLoginWalletPOC/SocialLoginWalletPOC/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "99C711D5-FB63-430D-B7B8-4AA0F64635A0 - e0bb90c46e832ac8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SocialLoginWalletPOC.ViewController.createAUser() -&gt; ()"
+                  moduleName = "SocialLoginWalletPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aakarshit/Documents/SocialWalletPOC/SocialLoginWalletPOC/SocialLoginWalletPOC/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDFE850F-A5D6-4F66-B18D-BD707B10CF50"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialLoginWalletPOC/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "createAUser()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FDFE850F-A5D6-4F66-B18D-BD707B10CF50 - e0bb90c46e832a2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SocialLoginWalletPOC.ViewController.createAUser() -&gt; ()"
+                  moduleName = "SocialLoginWalletPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aakarshit/Documents/SocialWalletPOC/SocialLoginWalletPOC/SocialLoginWalletPOC/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "FDFE850F-A5D6-4F66-B18D-BD707B10CF50 - e0bb90c46e832a2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SocialLoginWalletPOC.ViewController.createAUser() -&gt; ()"
+                  moduleName = "SocialLoginWalletPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aakarshit/Documents/SocialWalletPOC/SocialLoginWalletPOC/SocialLoginWalletPOC/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
