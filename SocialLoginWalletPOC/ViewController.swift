@@ -11,6 +11,7 @@ class ViewController: UIViewController {
     let apiKey = "TEST_API_KEY:f90bd4d8467609d433d5ffdabae4c543:20913c2458fd95296dae8226ef221724"
     var myAppID = ""
     var myuserID = ""
+    var myUsername = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         
