@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
     let apiKey = "TEST_API_KEY:f90bd4d8467609d433d5ffdabae4c543:20913c2458fd95296dae8226ef221724"
@@ -68,54 +69,44 @@ class ViewController: UIViewController {
 
         dataTask.resume()
     }
-    
+
     func createAUser() {
-        let headers = [
-          "Content-Type": "application/json",
-          "Authorization": "Bearer \(apiKey)"
+        let headers: HTTPHeaders = [
+            "Content-Type": "application/json",
+            "Authorization": "Bearer \(apiKey)"
         ]
-        
+
         let UUID = UUID().uuidString
-        
-        let parameters = ["userId": "\(UUID)"] as [String : Any]
 
-        do {
-            let postData = try JSONSerialization.data(withJSONObject: parameters, options: [])
+        let parameters: Parameters = ["userId": UUID]
 
-            let request = NSMutableURLRequest(url: NSURL(string: "https://api.circle.com/v1/w3s/users")! as URL,
-                                              cachePolicy: .useProtocolCachePolicy,
-                                              timeoutInterval: 10.0)
-            request.httpMethod = "POST"
-            request.allHTTPHeaderFields = headers
-            request.httpBody = postData
-
-            let session = URLSession.shared
-            let dataTask = session.dataTask(with: request as URLRequest) { (data, response, error) in
-                if let error = error {
-                    print("Error: \(error)")
-                } else {
-                    if let httpResponse = response as? HTTPURLResponse {
-                            if let responseData = data {
-                                do {
-                                    
-                                    if let json = try JSONSerialization.jsonObject(with: responseData, options: []) as? [String: Any]
-                                       {
-                                        print(json)
-                                    } else {
-                                        print("Cateched")
-                                    }
-                                } catch {
-                                    print("Error: \(error.localizedDescription)")
-                                }
-                            }
+        AF.request("https://api.circle.com/v1/w3s/users",
+                   method: .post,
+                   parameters: parameters,
+                   encoding: JSONEncoding.default,
+                   headers: headers)
+            .validate()
+            .responseString { response in
+                 switch response.result {
+                 case .success(let value):
+                     print(value)
+                 case .failure(let error):
+                     print("Error: \(error.localizedDescription)")
+                 }
+             }
+            .responseJSON { response in
+                switch response.result {
+                case .success(let value):
+                    if let json = value as? [String: Any] {
+                        print("Response Headers: \(response.request?.allHTTPHeaderFields ?? [:])")
+                        print(json)
+                    } else {
+                        print("Caught")
                     }
+                case .failure(let error):
+                    print("Error: \(error.localizedDescription)")
                 }
             }
-
-            dataTask.resume()
-        } catch {
-            print("Error serializing JSON: \(error)")
-        }
     }
 
 
